@@ -6,7 +6,7 @@ public class HelloWorld {
         Greeter greeter = new Greeter();
 	Date ltime;
 	ltime = new Date();
-	System.out.println(ltime);
+	System.out.println("LocalTime:" + ltime);
         System.out.println(greeter.sayHello());
     }
 }
